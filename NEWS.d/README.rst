@@ -18,7 +18,7 @@ The defined categories are:
 *feature*, *bugfix*, *doc*, *removal*, *misc*.
 (*removal* includes both removals and deprecations).
 
-The news fragments go into the ``next`` subdirectory,
+The news fragments go into the ``changes`` subdirectory,
 and you should commit your fragment into the PR.
 Use the category ``misc`` for changes to functionality
 that aren't specifically "fix a bug".
