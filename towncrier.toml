@@ -2,5 +2,30 @@
 name = "SCons"
 directory = "NEWS.d/changes"
 filename = "NEWS.d/RELEASE.rst"
-template = "NEWS.d/template.rst"
-start_string = "Here is a summary of changes since the previous release"
+#template = "NEWS.d/template.rst"
+
+[[tool.towncrier.type]]
+directory = "features"
+name = "NEW FUNCTIONALITY"
+showcontent = true
+
+[[tool.towncrier.type]]
+directory = "removal"
+name = "DEPRECATED or REMOVED FUNCTIONALITY"
+showcontent = true
+
+[[tool.towncrier.type]]
+directory = "doc"
+name = "DOCUMENTATION CHANGES"
+showcontent = true
+
+[[tool.towncrier.type]]
+directory = "bugfix"
+name = "BUGFIXES"
+showcontent = true
+
+[[tool.towncrier.type]]
+directory = "misc"
+name = "CHANGED/ENHANCED EXISTING FUNCTIONALITY"
+showcontent = true
+
