@@ -15,12 +15,13 @@ Example::
     $ towncrier create --edit foo.bugfix
 
 The defined categories are:
-*feature*, *bugfix*, *doc*, *removal*, *deprecation*, *misc*.
+*feature*, *bugfix*, *doc*, *removal*, *misc*.
+(*removal* includes both removals and deprecations).
 
 The news fragments go into the ``next`` subdirectory,
 and you should commit your fragment into the PR.
-Use the category ``misc`` for changes that are "not of
-interest to users" (some judgement is required there!).
+Use the category ``misc`` for changes to functionality
+that aren't specifically "fix a bug".
 
 When a release is made, it is generated as the file
 ``RELEASE.rst``, and all the fragments in ``next`` are
