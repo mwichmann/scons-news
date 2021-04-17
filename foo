@@ -1,0 +1,10 @@
+[tool.towncrier]
+name = "SCons"
+directory = "NEWS.d/changes"
+filename = "NEWS.d/RELEASE.rst"
+
+#[[tool.towncrier.type]]
+#directory = "deprecation"
+#name = "Deprecations"
+#showcontent = true
+

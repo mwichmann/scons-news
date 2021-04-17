@@ -1,0 +1,6 @@
+[tool.towncrier]
+name = "SCons"
+directory = "NEWS.d/changes"
+filename = "NEWS.d/RELEASE.rst"
+template = "NEWS.d/template.rst"
+start_string = "Here is a summary of changes since the previous release"
